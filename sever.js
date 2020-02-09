@@ -3,7 +3,7 @@ const express = require('express');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const publicPath = path.join(__dirname, '..', 'E-cart/dist/E-cart');
+const publicPath = path.join(__dirname, '..', 'E-cart/dist/project');
 const proxy = require('http-proxy-middleware');
 
 /**
